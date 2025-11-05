@@ -1,171 +1,87 @@
-# <div align='center'>Dabi-Ai-WhastApp</div>
+<div align='center'>Deline WhatsApp Bot</div>
 
 <p align="center">
   <img src="https://api.deline.web.id/vxSTDwiyv9.jpg">
 </p>
+---
 
-- - -
+Hi Everyone
 
-## Hi Everyone
-   Hari yang menyenangkan teman-teman. Kali ini saya akan memberikan sebuah informasi tentang Script Dabi-Ai ini, ini adalah sebuah Script Dabi-Ai/Base Bot WhatsApp,  dalam rangkaian kali ini saya benar-benar berterima kasih kepada kalian yang menggunakan Script ini.
+Script ini merupakan pengembangan dari Dabi-Ai yang telah disesuaikan untuk Deline APIs.
+Versi ini dibuat agar tetap ringan, simple, dan mudah digunakan di berbagai platform seperti Termux atau VPS.
 
-   Tentu saja Script ini bisa terhubung dengan akun/nomor WhatsApp anda, Berikut adalah beberapa spesifikasi tentang Script Dabi-Ai ini:
 
-- Suport Termux
-- Ringan
-- Type Plugins
-- Menggunakan Code ESM
+---
 
-[![MaouDabi GitHub](https://github-readme-stats.vercel.app/api?username=maoudabi0\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/maoudabi0/Dabi-Ai#responsive-card-theme#gh-light-mode-only)
+Spesifikasi
 
-<br>
+Support Termux & VPS
 
-- - -
+Ringan
 
-## Penginstalan Pada Termux
-### otomatis
-1. Update Package
-   ```bash
-   pkg upgrade -y && pkg update -y
-   ```
-    2.Repo Clone
-   ```bash
-   git clone https://github.com/MaouDabi0/Dabi-Ai
-   ```
-3. masuk file
-   ```bash
-   cd ~/Dabi-Ai
-   ```
-4. install module
-   ```bash
-   bash install.sh
-   ```
-5. start
-   ```bash
-   npm start
-   ```
+Plugin system
 
-> jika lama bisa hapus `ffmpeg` di dalam file `install.sh` karena itu yg membuat lama, tapi mungkin sebagian fitur tidak berfungsi
+ESM module
 
-### manual
-Salin atau ketik promt seperti yang ada di bawah ini di termux
+Terintegrasi dengan Deline APIs
 
- 1. Update Package
 
-   ```bash
-   pkg upgrade -y && pkg update -y
-   ```
 
- 2. Install NodeJs
+---
 
-   ```bash
-   pkg install nodejs -y
-   ```
+Instalasi di Termux
 
- 3. Install git
+1. pkg upgrade -y && pkg update -y
 
-   ```bash
-   pkg install git -y
-   ```
- 
- 4. Install ffmpeg
 
-   ```bash
-   pkg install ffmpeg -y
-   ```
- 
- 5. Repo Clone
+2. git clone https://github.com/Bagasoffc/Deline
 
-   ```bash
-   git clone https://github.com/MaouDabi0/Dabi-Ai
-   ```
 
-## Cara Memasangnya
+3. cd ~/Deline
 
-<details>
-  <summary> Penting </summary>
-    Pastikan anda membaca ini dengan baik, untuk Memasangnya ada beberapa hal yang harus anda ketahui.
-</details><br>
-  Pada dasarnya, Semua Script Bot WhatsApp mendukung termux, tetapi karena keterbatasan device, akhirnya beberapa Dev menyarankan untuk menggunakan Penel/Server.<br><br>
-<details>
-  <summary>Tip</summary>
-    Gunakan Device yang kompatibel/sesuai dengan spesifikasi Script ini
-</details>
 
-### <div align='center'>Spesifikasi Yang Di Sarankan</div> 
-  Ini adalah spesifikasi device yang saya sarankan untuk menjalankan Bot WhatsApp di Termux: 
+4. bash install.sh
 
-- Ram: 3 - 12 GB
-- Internal: 32 - 256 GB
-- Memory: 3++
-- Kec Transfer: kbps
 
-### Tutorial
+5. npm start
 
-1. Change Directory
 
-   Setelah menyalin repo dari github<br>
-   `git clone https://github.com...`,<br>
-   langkah selanjutnya anda perlu melakukan input promt pada termux dengan mengetik/menyalin ini
-   
-   ```bash
-   cd Dabi-Ai
-   ```
 
-   jika tampilan termux sudah seperti ini<br>
-   `~/Dabi-Ai $`,<br> maka langkah selanjutnya adalah
 
-2. Node Package Meneger
+---
 
-   yaitu penginstalan node package, dengan cara menginput promt pada termux dengan mengetik/menyalin ini
+Instalasi Manual
 
-   ```bash
-   npm install
-   ```
-   
-   tunggu hingga process selesai, jika process selesai atau berhasil maka langkah berikutnya adalah
+1. pkg upgrade -y && pkg update -y
 
-<details>
-  <summary>Tip</summary>
-    Jika `npm install` tidak bisa maka gunakan
-</details><br>
-3. Yarn Package Meneger
 
-   gunakan yarn untuk menginstall **Package** di dalam `~/node_module` pada Script Bot WhatsApp dengan cara mengetik/menyalin ini
+2. pkg install nodejs git ffmpeg -y
 
-   ```bash
-   yarn install
-   ```
 
-4. Bot Running
+3. git clone https://github.com/Bagasoffc/Deline
 
-   langkah selanjutnya adalah memasukan promt atau perintah pada termux, dengan mengetik/menyalin ini
 
-   ```bash
-   npm start
-   ```
+4. cd Deline
 
-5. Connection Save
 
-   jalankan dan masukan nomor/akun whatsapp yang akan dijadikan Bot WhatsApp, jika code pairing sudah muncul, masukan code pairing tersebut ke Perangkat tertaut.<br>
-   Dan selamat Bot berhasil di jalankan. 
+5. npm install
 
-- - -
 
-# Dabi-Ai-Documentation
-[![iTasks](https://github-readme-stats.vercel.app/api/pin/?username=maoudabi0&repo=Dabi-Ai-Documentation&border_color=7F3FBF&bg_color=FFFFFF&title_color=010101&text_color=8B949E&icon_color=7F3FBF)](https://github.com/maoudabi0/Dabi-Ai-Documentation)
+6. npm start
 
-- - -
 
-## Request & Fix 
-<details>
-  <summary>Help Dabi</summary>
-    Email: maoudabioffc@gmail.com
-</details>
 
-# (C)
-<div align="left">
-    <img src="https://img.shields.io/badge/Realese%3A-2025-0?logoSize=12&labelColor=orange&color=gray" alt="Release Badge">
-    <br>
-    <img src="https://img.shields.io/badge/Create%3A-Maou_Dabi-0?logoSize=12&label=Create%3A&labelColor=green&color=grey" alt="Create Badge">
-</div>
+
+---
+
+Kontak
+
+Email : support@deline.web.id
+Discord : Deline Developer Hub
+Website : https://api.deline.web.id
+
+
+---
+
+Customized for Deline APIs.
+
