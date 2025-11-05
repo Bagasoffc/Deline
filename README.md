@@ -1,4 +1,4 @@
-# <div align='center'>Delin WhatsApp Bot 
+# <div align='center'>Deline WhatsApp Bot 
 
 <p align="center">
   <img src="https://api.deline.web.id/vxSTDwiyv9.jpg">
@@ -71,16 +71,6 @@ Instalasi Manual
 
 
 
-
----
-
-Kontak
-
-Channel : https://whatsapp.com/channel/0029VbB8WYS4CrfhJCelw33j
-Website : https://api.deline.web.id
-
-
----
 
 Customized for Deline APIs.
 
