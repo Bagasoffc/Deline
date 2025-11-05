@@ -7,8 +7,8 @@
 
 Hi Everyone
 
-Script ini merupakan pengembangan dari Dabi-Ai yang telah disesuaikan untuk Deline APIs.
-Versi ini dibuat agar tetap ringan, simple, dan mudah digunakan di berbagai platform seperti Termux atau VPS.
+Script ini menggunakan sistem plugin dan berjalan dengan Deline APIs.
+Ringan, mudah digunakan, dan bisa dijalankan di Termux atau VPS.
 
 
 ---
@@ -76,8 +76,7 @@ Instalasi Manual
 
 Kontak
 
-Email : support@deline.web.id
-Discord : Deline Developer Hub
+Channel : https://whatsapp.com/channel/0029VbB8WYS4CrfhJCelw33j
 Website : https://api.deline.web.id
 
 
