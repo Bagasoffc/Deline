@@ -1,4 +1,4 @@
-# <div align='center'>Dabi-Ai-WhastApp</div
+# <div align='center'>Delin WhatsApp Bot </div
 
 <p align="center">
   <img src="https://api.deline.web.id/vxSTDwiyv9.jpg">
