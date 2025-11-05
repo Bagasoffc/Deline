@@ -1,7 +1,7 @@
 # <div align='center'>Dabi-Ai-WhastApp</div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maoudabi0/Dabi-Ai-Documentation/main/assets/Dabi-Ai.png">
+  <img src="https://api.deline.web.id/vxSTDwiyv9.jpg">
 </p>
 
 - - -
