@@ -22,7 +22,7 @@ export default {
           fullPath = path.resolve(baseDir, targetPath);
 
     if (!githubUrl) {
-      githubUrl = 'https://github.com/MaouDabi0/Dabi-Ai';
+      githubUrl = 'https://github.com/Bagasoffc/Deline';
     }
 
     if (!fullPath.startsWith(baseDir)) return conn.sendMessage(chatId, { text: 'Akses ditolak.' }, { quoted: msg });
