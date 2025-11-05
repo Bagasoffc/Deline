@@ -1,8 +1,3 @@
-/*  
- * Create By Dabi  
- * © 2025  
- */
-
 import fs from "fs";
 import path from "path";
 import pino from "pino";
@@ -13,7 +8,6 @@ import { fileURLToPath } from "url";
 
 import stg from "./toolkit/setting.js";
 import makeInMemoryStore from "./toolkit/store.js";
-import Cc from "./session/setCfg.js";
 import { cekSholat } from "./toolkit/pengingat.js";
 import emtData from "./toolkit/transmitter.js";
 import { evConnect, handleSessionIssue } from './toolkit/connect.js'
@@ -178,7 +172,6 @@ const startBot = async () => {
       await parallel(
         () => cekSholat(conn, msg, { chatId }),
         () => labvn(textMessage, msg, conn, chatId),
-        () => Cc(conn, msg, textMessage)
       )
 
       for (const f of [groupFilter, badwordFilter, xp])
@@ -312,7 +305,7 @@ const startBot = async () => {
   }
 };
 
-console.log(chalk.cyanBright.bold('Create By Dabi\n'));
+console.log(chalk.cyanBright.bold('Welcome\n'));
 loadPlug();
 startBot();
 
